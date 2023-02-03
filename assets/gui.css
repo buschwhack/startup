@@ -1,0 +1,130 @@
+body{
+    background-color: #181027;
+    color:white;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.landingimg{
+    width: 70%;
+    float: right;
+}
+
+.hlanding{
+   padding-top: 15%;
+   padding-left: 5%;
+}
+
+.toplogo{
+    width:100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.topnav ul{
+    list-style: none;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topnav li{
+ text-decoration: none;
+ display: inline-block;
+ padding-left: 5%;
+ padding-top: 3%;
+ padding-bottom: 3%;
+}
+
+.topnav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.topnav li:hover{
+    border-bottom: thin solid white;
+}
+a.btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    opacity: 1;
+    transition: 0.3s;
+    margin-top: 5%;
+    padding: 10px 0px;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+
+  .btn:hover {opacity: 0.6}
+
+  .bottomcontent{
+    background-color: #2d1f49;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+
+  .bottomcontent .left h1{
+    padding: 5%;
+  }
+
+  .bottomcontent .left h2{
+    padding-left: 5%;
+  }
+
+  .bottomcontent .right{
+  padding-top: 5%;
+    }
+
+    .bottomcontent .right p{
+        padding-top: 5%;
+    }
+
+   .right a.btn{
+    border: medium solid #f4511e;
+    background-color: #2d1f49;
+    color:white;
+   } 
+
+   @media only screen and (max-width: 720px) {
+
+    .toplogo{
+        width:50%;
+        padding: 0;
+    }
+    .topnav li{
+        padding-top: 0;
+    }
+    a.btn {
+       width:50%;
+       margin: 0 auto;
+    } 
+
+    .image {
+        height:350px;
+        overflow: hidden;  
+    }
+    .image .landingimg{
+     float:none;
+     position: relative;
+     left: 25%;
+     width: 50%;
+    
+    }
+    .hlanding{
+        padding: 5%;
+        text-align: center;
+    }
+    .right {
+        padding: 10%;
+    }
+    .right p{
+        font-size:larger;
+    }
+
+    .right a.btn, .left h1{
+        display: none;
+    }
+   }
